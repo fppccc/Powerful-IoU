@@ -2,10 +2,8 @@
 
 This is the source code for __Powerful-IoU__.
 [[**Article Link**](https://www.sciencedirect.com/science/article/abs/pii/S0893608023006640)]
-
 <br />
 <br />
-
 ### Using Powerful-IoU in YOLOv8:
 
 1.Download the source code for YOLOv8. [[YOLOv8](https://github.com/ultralytics/ultralytics)] <br />
