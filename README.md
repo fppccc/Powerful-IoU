@@ -1,8 +1,8 @@
 # ***Powerful-IoU：More straightforward and faster bounding box regression loss with a nonmonotonic focusing mechanism***
 
-This is the source code for __Powerful-IoU__.<br />
-**Link to article**:  <br />
-https://www.sciencedirect.com/science/article/abs/pii/S0893608023006640
+This is the source code for __Powerful-IoU__.
+[[**Article Link**](https://www.sciencedirect.com/science/article/abs/pii/S0893608023006640)]
+
 <br />
 <br />
 
@@ -18,7 +18,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0893608023006640
 ```
 <br />
 
-4.Modify the use of the loss function in class BboxLoss in ultralytics-main/ultralytics/yolo/utils/loss.py<br />
+4.Modify the use of the loss function in ```class BboxLoss``` in ultralytics-main/ultralytics/yolo/utils/loss.py<br />
 ```
     iou = 1-piou(pred_bboxes[fg_mask], target_bboxes[fg_mask], xywh=False, PIoU2=True)
 ```
