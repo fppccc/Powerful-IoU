@@ -6,9 +6,9 @@ This is the source code for __Powerful-IoU__.
 <br />
 <br />
 
-### using Powerful-IoU in Yolov8:
+### Using Powerful-IoU in YOLOv8:
 
-1.Download the source code for Yolov8. Link: https://github.com/ultralytics/ultralytics<br />
+1.Download the source code for YOLOv8. [[YOLOv8](https://github.com/ultralytics/ultralytics)] <br />
 
 2.Copy and paste the source code from our file YOLOv8/piou.py into ultralytics-main/ultralytics/yolo/utils/metrics.py<br />
 
