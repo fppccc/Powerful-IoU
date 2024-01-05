@@ -6,17 +6,17 @@ This is the source code for __Powerful-IoU__.
 <br />
 ### Using Powerful-IoU in YOLOv8:
 
-1.Download the source code for YOLOv8. [[YOLOv8](https://github.com/ultralytics/ultralytics)] <br />
+1. Download the source code for YOLOv8. [[**YOLOv8**](https://github.com/ultralytics/ultralytics)] <br />
 
-2.Copy and paste the source code from our file YOLOv8/piou.py into ultralytics-main/ultralytics/yolo/utils/metrics.py<br />
+2. Copy and paste the source code from our file YOLOv8/piou.py into ultralytics-main/ultralytics/yolo/utils/metrics.py<br />
 
-3.Add code to ultralytics-main/ultralytics/yolo/utils/loss.py<br />
+3. Add code to ultralytics-main/ultralytics/yolo/utils/loss.py<br />
 ```
     from .metrics import piou
 ```
 <br />
 
-4.Modify the use of the loss function in ```class BboxLoss``` in ultralytics-main/ultralytics/yolo/utils/loss.py<br />
+4. Modify the use of the loss function in ```class BboxLoss``` in ultralytics-main/ultralytics/yolo/utils/loss.py<br />
 ```
     iou = 1-piou(pred_bboxes[fg_mask], target_bboxes[fg_mask], xywh=False, PIoU2=True)
 ```
