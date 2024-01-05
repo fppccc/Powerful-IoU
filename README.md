@@ -1,10 +1,8 @@
 # Powerful-IoU
 ## ***Powerful-IoU：More straightforward and faster bounding box regression loss with a nonmonotonic focusing mechanism***
 <br />
-<br />
-
 This is the source code for Powerful-IoU.<br />
-**Link to article:**<br />
+**Link to article:** <br />
 https://www.sciencedirect.com/science/article/abs/pii/S0893608023006640
 <br />
 <br />
@@ -17,7 +15,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0893608023006640
 
 3.Add code to ultralytics-main/ultralytics/yolo/utils/loss.py<br />
 ```
-      from .metrics import piou
+    from .metrics import piou
 ```
 <br />
 
