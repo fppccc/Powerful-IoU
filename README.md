@@ -1,5 +1,5 @@
 # Powerful-IoU
-***Powerful-IoU：More straightforward and faster bounding box regression loss with a nonmonotonic focusing mechanism***
+## ***Powerful-IoU：More straightforward and faster bounding box regression loss with a nonmonotonic focusing mechanism***
 <br />
 <br />
 
