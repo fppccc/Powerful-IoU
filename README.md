@@ -22,7 +22,7 @@ This is the source code for __Powerful-IoU__.
 ```
 <br />
 
-    If the performance of PIOUv2 is unsatisfactory, you may consider trying the following code.
+    If the performance of PIOUv2 is unsatisfactory, you may consider trying the following code.<br />
 ```
     iou = 1-piou(pred_bboxes[fg_mask], target_bboxes[fg_mask], xywh=False, PIoU2=True).clamp_(0)
 ```
