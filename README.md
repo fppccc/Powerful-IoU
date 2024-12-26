@@ -15,11 +15,13 @@ This is the source code for __Powerful-IoU__.
     from .metrics import piou
 ```
 <br />
+
 4. Modify the use of the loss function in ```class BboxLoss``` in ultralytics-main/ultralytics/yolo/utils/loss.py<br />
 ```
     iou = 1-piou(pred_bboxes[fg_mask], target_bboxes[fg_mask], xywh=False, PIoU2=True)
 ```
 <br />
+
 5. If the performance of PIOUv2 is unsatisfactory, you may consider trying the following code.<br />
 ```
     iou = 1-piou(pred_bboxes[fg_mask], target_bboxes[fg_mask], xywh=False, PIoU2=True).clamp_(0)
